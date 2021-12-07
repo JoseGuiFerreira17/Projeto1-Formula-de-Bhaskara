@@ -6,9 +6,7 @@ c = c1
 
 delta = (b*b) - 4*a*c
 print(delta)
-if delta < 0:
-    print("Impossivel calcular")
-elif(a == 0):
+if delta < 0 or a == 0:
     print("Impossivel calcular")
 else:
     x1 = (-b + math.pow(delta, 0.5)) / (2*a)
